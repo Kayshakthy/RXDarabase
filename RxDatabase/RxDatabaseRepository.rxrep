@@ -1,0 +1,285 @@
+﻿<repository
+name="RxDatabaseRepository"
+id="076b6e5d-2e9d-4aa7-a4b9-06c09e0fd7b2"
+rxversion="6.1">
+	<codegen
+	classname="RxDatabaseRepository"
+	namespace="RxDatabase"/>
+	<rootfolder
+	name="Root"
+	id="089d70a2-1de7-4a76-aa26-3b3526e92fdc"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="Explorer"
+		id="fd2f9a4d-a8e3-41a0-8cc9-acec5d1b6c1e"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="MicrosoftEdge1RunningWindow"
+			id="70c0aca9-e2f7-4cb0-8c4b-bf808008cf68"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[12]"
+			addcaps="button,accessible"
+			refimgid="1b1d67e5-c8f3-417c-b780-3b7f13167f87">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[12]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MicrosoftEdge"
+		id="2b209ab6-7d6d-4d6d-91a4-7be781f759e8"
+		searchtimeout="30000ms"
+		capname="windowsapp"
+		refpath="/winapp[@packagename='Microsoft.MicrosoftEdge' and @appid='MicrosoftEdge' and @name='Microsoft Edge']"
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Minimize"
+			id="37cf9151-3fc0-4893-84b6-cd1130ab4296"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/winapp[@packagename='Microsoft.MicrosoftEdge' and @appid='MicrosoftEdge' and @name='Microsoft Edge']/titlebar[@automationid='TitleBar' and @name~'^Git\ \|\ Ranorex\ and\ 3\ more\ ' and @classname='ApplicationFrameTitleBarWindow']/button[@automationid='Minimize']"
+			addcaps="button,uiautomation,uiautomationinvoke"
+			refimgid="b508106d-7c50-4a3a-822c-64bc7a2473ff">
+				/winapp[@appid='MicrosoftEdge' and @name='Microsoft Edge']/?/?/button[@automationid='Minimize']
+			</item>
+			<basepath>
+				/winapp[@appid='MicrosoftEdge' and @name='Microsoft Edge']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADPSURBVDhPY2CouP6fIoxVEIgXnP3wHwY+fP/7
+v2DzS6zqMAw4cO8rVBt24DDrIYp6FAMuPPsBVYYfoBgCYwQsegKV/v+/Yc/r/wqdd+CKDCbeh8og
+AEwObgAIgFwAYj94/+u/QMMthCIgRg4TEICHCbICEA0KMBCAicMwyNnIAKQOLAciQE4E0SBnkwLg
+BsAwoRhABxgGkArwGoAsjhcjcyYceQfVjhRIaBhvQgJhbAA9bFD0oHCAGFuiQQcoelA4UAxKRLgA
+htdQOCTj6/8B4rQEjOBNS80AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Gmail"
+		id="7c09c86d-dd84-446b-9ec9-7d4581139632"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='accounts.google.com']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="IdentifierId"
+			id="13ee4911-b41b-4503-9aff-50208004bc03"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='accounts.google.com']//input[#'identifierId']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="79877890-c65c-4bf6-b356-adc870be3a5f">
+				/dom[@domain='accounts.google.com']//input[#'identifierId']
+			</item>
+			<item
+			name="ZFr60dCeoRYc"
+			id="5ad804b7-8a2f-4e34-a0eb-85c4bb4296fc"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='accounts.google.com']//div[#'identifierNext']/div[2]"
+			addcaps="unknown,webelement,divtag"
+			refimgid="8d5e1175-bbf0-43a3-8171-f041b8bafd26">
+				/dom[@domain='accounts.google.com']//div[#'identifierNext']/div[2]
+			</item>
+			<item
+			name="Next"
+			id="ebb71b99-c7db-422d-b8bf-87639345a762"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='accounts.google.com']//div[#'identifierNext']/span/span[@innertext='Next']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="1adfeeca-a711-4f62-a7e7-ebc5e33b444e">
+				/dom[@domain='accounts.google.com']//div[#'identifierNext']/?/?/span[@innertext='Next']
+			</item>
+			<item
+			name="Password"
+			id="f1ea55fe-b920-49af-8956-594bf5f4eb84"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='accounts.google.com']//div[#'password']/div[1]/div/div[1]/input[@name='password']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="3029ef6d-40b7-422e-94f8-09ec54d82c38">
+				/dom[@domain='accounts.google.com']//div[#'password']/div[1]/div/div[1]/input[@name='password']
+			</item>
+			<basepath>
+				/dom[@domain='accounts.google.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="GmailInternetExplorer"
+		id="88ac63a2-9c6d-4ca8-a965-748ae63e5ca7"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Gmail - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="AskMeLater"
+			id="0a478991-bd62-4931-be24-d87f7f5d80ab"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Gmail - Internet Explorer']/element[@class='Frame Notification Bar']/container/toolbar/button[@accessiblename='Ask me later']"
+			addcaps="button,accessible"
+			refimgid="b5a2af30-eaaf-42fe-a448-286b450b5217">
+				/form[@title='Gmail - Internet Explorer']//toolbar[@accessiblename='Notification']/button[@accessiblename='Ask me later']
+			</item>
+			<basepath>
+				/form[@title='Gmail - Internet Explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="TestAutomationForGUITestingRanore"
+		id="df4b791d-6644-4d05-b297-0b8f692e81e1"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='www.ranorex.com' and @caption='Test Automation for GUI Testing | Ranorex']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="RanorexLogo"
+			id="2352a1c6-0568-497c-b74a-978bc53004ae"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='www.ranorex.com' and @caption='Test Automation for GUI Testing | Ranorex']//div[#'rx-header-sticky-content-wrapper']/div[1]/a[@href='https://www.ranorex.com/']/img[@alt='Ranorex Logo']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="c86ced0e-8a69-4948-aeeb-69f50093e2db">
+				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//img[@alt='Ranorex Logo']
+			</item>
+			<item
+			name="TestAutomationForAll"
+			id="7331b024-1501-4ffd-954e-905b06b104f7"
+			searchtimeout="30000ms"
+			capname="h1tag"
+			refpath="/dom[@domain='www.ranorex.com' and @caption='Test Automation for GUI Testing | Ranorex']//div[#'et_builder_outer_content']/div/div[1]/div/div/div/div/h1[@innertext='Test Automation for All']"
+			addcaps="unknown,webelement,h1tag"
+			refimgid="ea6a5ab1-1557-489a-81ae-601f9eceda05">
+				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']
+			</item>
+			<basepath>
+				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{8A07F655-D462-4F1D-A712-40D567B71F0B}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RxDatabase</RootNamespace>
+    <AssemblyName>RxDatabase</AssemblyName>
+    <RanorexVersion>6.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>2a98abfb-5822-48c8-b105-d8fa52e4df4a</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>17e885c5-6df4-4d02-856f-ba1e6a3ee61e</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>05441c88-d9ca-400f-b26e-ff128c7bef69</id>
+    </Compile>
+    <Compile Include="GmailLogin.cs">
+      <BoundTo>e45a0217-329c-4db1-bba5-8cc58cd9599c</BoundTo>
+      <DependentUpon>GmailLogin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3164d58a-1378-41f4-a3b5-bc404cc0de7c</id>
+    </Compile>
+    <Compile Include="GmailLogin.UserCode.cs">
+      <BoundTo>e45a0217-329c-4db1-bba5-8cc58cd9599c</BoundTo>
+      <DependentUpon>GmailLogin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a679c4e-db14-4a38-b9c4-303047b1ed82</id>
+    </Compile>
+    <Compile Include="RanorexSiteVisit.cs">
+      <BoundTo>466d18c3-0c3d-4ada-8ecd-b1d58a87486f</BoundTo>
+      <DependentUpon>RanorexSiteVisit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c696c987-a336-4f4e-982e-77e094284718</id>
+    </Compile>
+    <Compile Include="RanorexSiteVisit.UserCode.cs">
+      <BoundTo>466d18c3-0c3d-4ada-8ecd-b1d58a87486f</BoundTo>
+      <DependentUpon>RanorexSiteVisit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ace53d7d-0e5d-49f1-a92c-be64fd599b6d</id>
+    </Compile>
+    <Compile Include="RxDatabaseRepository.cs">
+      <BoundTo>2a98abfb-5822-48c8-b105-d8fa52e4df4a</BoundTo>
+      <DependentUpon>RxDatabaseRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>2b657019-fe36-4fd5-93f4-0dfa5d9662b4</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>b37c9ca1-9db5-46a9-b6a1-c8e82fa72ae6</id>
+    </None>
+    <None Include="GmailLogin.rxrec">
+      <BoundTo>2a98abfb-5822-48c8-b105-d8fa52e4df4a</BoundTo>
+      <id>e45a0217-329c-4db1-bba5-8cc58cd9599c</id>
+      <recordtableid>44cc5d1d-7783-4790-9fc4-00e8bf58b187</recordtableid>
+    </None>
+    <None Include="RanorexSiteVisit.rxrec">
+      <BoundTo>2a98abfb-5822-48c8-b105-d8fa52e4df4a</BoundTo>
+      <id>466d18c3-0c3d-4ada-8ecd-b1d58a87486f</id>
+      <recordtableid>39a2b104-3a0e-4999-be86-20cfec731dac</recordtableid>
+    </None>
+    <None Include="RxDatabaseRepository.rximg">
+      <BoundTo>2a98abfb-5822-48c8-b105-d8fa52e4df4a</BoundTo>
+      <DependentUpon>RxDatabaseRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>1777106f-22e4-4863-9758-e25e9747ea9d</id>
+    </None>
+    <None Include="RxDatabaseRepository.rxrep">
+      <id>2a98abfb-5822-48c8-b105-d8fa52e4df4a</id>
+      <repoid>076b6e5d-2e9d-4aa7-a4b9-06c09e0fd7b2</repoid>
+      <reporootid>089d70a2-1de7-4a76-aa26-3b3526e92fdc</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RxDatabase.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0582db22-cbd9-4b5a-9b32-466ad8c96d8f</id>
+    </Content>
+    <Content Include="RxDatabase.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d10b5b5b-d3c4-44ad-901b-21df54e8c04c</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

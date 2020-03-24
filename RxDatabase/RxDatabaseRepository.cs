@@ -473,6 +473,8 @@ namespace RxDatabase
         {
             RepoItemInfo _ranorexlogoInfo;
             RepoItemInfo _testautomationforallInfo;
+            RepoItemInfo _productsInfo;
+            RepoItemInfo _solutionsInfo;
 
             /// <summary>
             /// Creates a new TestAutomationForGUITestingRanore  folder.
@@ -482,6 +484,8 @@ namespace RxDatabase
             {
                 _ranorexlogoInfo = new RepoItemInfo(this, "RanorexLogo", ".//div[#'rx-header-sticky-content-wrapper']//img[@alt='Ranorex Logo']", 30000, null, "2352a1c6-0568-497c-b74a-978bc53004ae");
                 _testautomationforallInfo = new RepoItemInfo(this, "TestAutomationForAll", ".//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']", 30000, null, "7331b024-1501-4ffd-954e-905b06b104f7");
+                _productsInfo = new RepoItemInfo(this, "PRODUCTS", ".//li[#'productMenuButton']/span[@innertext='PRODUCTS']", 30000, null, "de0a6c2f-dd78-420e-9cfe-abf140c8d574");
+                _solutionsInfo = new RepoItemInfo(this, "SOLUTIONS", ".//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']", 30000, null, "0c8bc087-f051-4e5d-97b2-60fcc11cf22b");
             }
 
             /// <summary>
@@ -553,6 +557,54 @@ namespace RxDatabase
                 get
                 {
                     return _testautomationforallInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PRODUCTS item.
+            /// </summary>
+            [RepositoryItem("de0a6c2f-dd78-420e-9cfe-abf140c8d574")]
+            public virtual Ranorex.SpanTag PRODUCTS
+            {
+                get
+                {
+                    return _productsInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PRODUCTS item info.
+            /// </summary>
+            [RepositoryItemInfo("de0a6c2f-dd78-420e-9cfe-abf140c8d574")]
+            public virtual RepoItemInfo PRODUCTSInfo
+            {
+                get
+                {
+                    return _productsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SOLUTIONS item.
+            /// </summary>
+            [RepositoryItem("0c8bc087-f051-4e5d-97b2-60fcc11cf22b")]
+            public virtual Ranorex.SpanTag SOLUTIONS
+            {
+                get
+                {
+                    return _solutionsInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SOLUTIONS item info.
+            /// </summary>
+            [RepositoryItemInfo("0c8bc087-f051-4e5d-97b2-60fcc11cf22b")]
+            public virtual RepoItemInfo SOLUTIONSInfo
+            {
+                get
+                {
+                    return _solutionsInfo;
                 }
             }
         }

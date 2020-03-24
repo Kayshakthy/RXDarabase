@@ -91,6 +91,14 @@ namespace RxDatabase
             Validate.Attribute(repo.TestAutomationForGUITestingRanore.TestAutomationForAllInfo, "InnerText", "Test Automation for All");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'TestAutomationForGUITestingRanore.PRODUCTS'.", repo.TestAutomationForGUITestingRanore.PRODUCTSInfo, new RecordItemIndex(3));
+            Validate.Exists(repo.TestAutomationForGUITestingRanore.PRODUCTSInfo);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='SOLUTIONS') on item 'TestAutomationForGUITestingRanore.SOLUTIONS'.", repo.TestAutomationForGUITestingRanore.SOLUTIONSInfo, new RecordItemIndex(4));
+            Validate.Attribute(repo.TestAutomationForGUITestingRanore.SOLUTIONSInfo, "InnerText", "SOLUTIONS");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

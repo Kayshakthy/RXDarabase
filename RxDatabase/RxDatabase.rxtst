@@ -23,7 +23,8 @@ rxversion="6.1">
 			name="GmailLogin"
 			id="6980da59-19ab-4c82-8c4e-dc75d083f65f"
 			ref="44cc5d1d-7783-4790-9fc4-00e8bf58b187"
-			type="Recording"/>
+			type="Recording"
+			enabled="False"/>
 			<testmodule
 			name="RanorexSiteVisit"
 			id="b9e0fa4b-fc80-459c-9aeb-c90b5a290cd9"

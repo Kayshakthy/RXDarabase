@@ -475,6 +475,8 @@ namespace RxDatabase
             RepoItemInfo _testautomationforallInfo;
             RepoItemInfo _productsInfo;
             RepoItemInfo _solutionsInfo;
+            RepoItemInfo _supportInfo;
+            RepoItemInfo _companyInfo;
 
             /// <summary>
             /// Creates a new TestAutomationForGUITestingRanore  folder.
@@ -486,6 +488,8 @@ namespace RxDatabase
                 _testautomationforallInfo = new RepoItemInfo(this, "TestAutomationForAll", ".//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']", 30000, null, "7331b024-1501-4ffd-954e-905b06b104f7");
                 _productsInfo = new RepoItemInfo(this, "PRODUCTS", ".//li[#'productMenuButton']/span[@innertext='PRODUCTS']", 30000, null, "de0a6c2f-dd78-420e-9cfe-abf140c8d574");
                 _solutionsInfo = new RepoItemInfo(this, "SOLUTIONS", ".//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']", 30000, null, "0c8bc087-f051-4e5d-97b2-60fcc11cf22b");
+                _supportInfo = new RepoItemInfo(this, "SUPPORT", ".//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']", 30000, null, "60c7ef72-b9b0-4393-b395-a63dd6291ef2");
+                _companyInfo = new RepoItemInfo(this, "COMPANY", ".//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']", 30000, null, "8a4cbe68-99cb-40c0-b25c-87ea1a71b07a");
             }
 
             /// <summary>
@@ -605,6 +609,54 @@ namespace RxDatabase
                 get
                 {
                     return _solutionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SUPPORT item.
+            /// </summary>
+            [RepositoryItem("60c7ef72-b9b0-4393-b395-a63dd6291ef2")]
+            public virtual Ranorex.SpanTag SUPPORT
+            {
+                get
+                {
+                    return _supportInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SUPPORT item info.
+            /// </summary>
+            [RepositoryItemInfo("60c7ef72-b9b0-4393-b395-a63dd6291ef2")]
+            public virtual RepoItemInfo SUPPORTInfo
+            {
+                get
+                {
+                    return _supportInfo;
+                }
+            }
+
+            /// <summary>
+            /// The COMPANY item.
+            /// </summary>
+            [RepositoryItem("8a4cbe68-99cb-40c0-b25c-87ea1a71b07a")]
+            public virtual Ranorex.SpanTag COMPANY
+            {
+                get
+                {
+                    return _companyInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The COMPANY item info.
+            /// </summary>
+            [RepositoryItemInfo("8a4cbe68-99cb-40c0-b25c-87ea1a71b07a")]
+            public virtual RepoItemInfo COMPANYInfo
+            {
+                get
+                {
+                    return _companyInfo;
                 }
             }
         }

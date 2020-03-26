@@ -99,6 +99,14 @@ namespace RxDatabase
             Validate.Attribute(repo.TestAutomationForGUITestingRanore.SOLUTIONSInfo, "InnerText", "SOLUTIONS");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='SUPPORT') on item 'TestAutomationForGUITestingRanore.SUPPORT'.", repo.TestAutomationForGUITestingRanore.SUPPORTInfo, new RecordItemIndex(5));
+            Validate.Attribute(repo.TestAutomationForGUITestingRanore.SUPPORTInfo, "InnerText", "SUPPORT");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='COMPANY') on item 'TestAutomationForGUITestingRanore.COMPANY'.", repo.TestAutomationForGUITestingRanore.COMPANYInfo, new RecordItemIndex(6));
+            Validate.Attribute(repo.TestAutomationForGUITestingRanore.COMPANYInfo, "InnerText", "COMPANY");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

@@ -280,6 +280,26 @@ xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
 			refimgid="14d28f61-f6bc-4810-858f-0ac5845e3927">
 				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']
 			</item>
+			<item
+			name="SUPPORT"
+			id="60c7ef72-b9b0-4393-b395-a63dd6291ef2"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='www.ranorex.com' and @caption='Test Automation for GUI Testing | Ranorex']//div[#'rx-header-sticky-content-wrapper']/div[2]/div/ul/li[4]/span[@innertext='SUPPORT']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="df77777b-02d6-4472-9f4e-35e8e805359a">
+				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']
+			</item>
+			<item
+			name="COMPANY"
+			id="8a4cbe68-99cb-40c0-b25c-87ea1a71b07a"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='www.ranorex.com' and @caption='Test Automation for GUI Testing | Ranorex']//div[#'rx-header-sticky-content-wrapper']/div[2]/div/ul/li[5]/span[@innertext='COMPANY']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="2cfd981b-c4a9-49ae-aee8-06900a3ee598">
+				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']
+			</item>
 			<basepath>
 				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']
 			</basepath>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="ae0aec18-3c7e-47ac-a496-6181ffc641b8"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		CloseRanorexSite
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseRanorexSite"
+	namespace="RxDatabase"/>
+	<variables/>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ad6261a1-34a6-4386-9340-d60db3773495"
+		method="CloseWindow"
+		graceperiod="0ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="df4b791d-6644-4d05-b297-0b8f692e81e1">
+				<path>
+					/dom[@caption~'^Test\ Automation\ for\ GUI\ T']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	name="RxDatabaseRepository"
+	id="076b6e5d-2e9d-4aa7-a4b9-06c09e0fd7b2"
+	rxversion="6.1"
+	relativepath="RxDatabaseRepository.rxrep">
+		<codegen
+		classname="RxDatabaseRepository"
+		namespace="RxDatabase"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="089d70a2-1de7-4a76-aa26-3b3526e92fdc"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseRanorexSite.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

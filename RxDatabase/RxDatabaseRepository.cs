@@ -32,6 +32,7 @@ namespace RxDatabase
         RxDatabaseRepositoryFolders.GmailAppFolder _gmail;
         RxDatabaseRepositoryFolders.GmailInternetExplorerAppFolder _gmailinternetexplorer;
         RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder _testautomationforguitestingranore;
+        RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanore1AppFolder _testautomationforguitestingranore1;
 
         /// <summary>
         /// Gets the singleton class instance representing the RxDatabaseRepository element repository.
@@ -53,6 +54,7 @@ namespace RxDatabase
             _gmail = new RxDatabaseRepositoryFolders.GmailAppFolder(this);
             _gmailinternetexplorer = new RxDatabaseRepositoryFolders.GmailInternetExplorerAppFolder(this);
             _testautomationforguitestingranore = new RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder(this);
+            _testautomationforguitestingranore1 = new RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanore1AppFolder(this);
         }
 
 #region Variables
@@ -114,6 +116,15 @@ namespace RxDatabase
         public virtual RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder TestAutomationForGUITestingRanore
         {
             get { return _testautomationforguitestingranore; }
+        }
+
+        /// <summary>
+        /// The TestAutomationForGUITestingRanore1 folder.
+        /// </summary>
+        [RepositoryFolder("56e22e21-4297-4d29-aad3-8729ad41d9bc")]
+        public virtual RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanore1AppFolder TestAutomationForGUITestingRanore1
+        {
+            get { return _testautomationforguitestingranore1; }
         }
     }
 
@@ -657,6 +668,72 @@ namespace RxDatabase
                 get
                 {
                     return _companyInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The TestAutomationForGUITestingRanore1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("56e22e21-4297-4d29-aad3-8729ad41d9bc")]
+        public partial class TestAutomationForGUITestingRanore1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _clientcaptionInfo;
+
+            /// <summary>
+            /// Creates a new TestAutomationForGUITestingRanore1  folder.
+            /// </summary>
+            public TestAutomationForGUITestingRanore1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("TestAutomationForGUITestingRanore1", "/form[@processname='iexplore' and @class='IEFrame' and @instance='1']", parentFolder, 30000, null, true, "56e22e21-4297-4d29-aad3-8729ad41d9bc", "")
+            {
+                _clientcaptionInfo = new RepoItemInfo(this, "ClientCaption", "element[@class='Client Caption']", 30000, null, "ead21a1d-c5a3-453b-9519-259c8d4c48d5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("56e22e21-4297-4d29-aad3-8729ad41d9bc")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("56e22e21-4297-4d29-aad3-8729ad41d9bc")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ClientCaption item.
+            /// </summary>
+            [RepositoryItem("ead21a1d-c5a3-453b-9519-259c8d4c48d5")]
+            public virtual Ranorex.Unknown ClientCaption
+            {
+                get
+                {
+                    return _clientcaptionInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ClientCaption item info.
+            /// </summary>
+            [RepositoryItemInfo("ead21a1d-c5a3-453b-9519-259c8d4c48d5")]
+            public virtual RepoItemInfo ClientCaptionInfo
+            {
+                get
+                {
+                    return _clientcaptionInfo;
                 }
             }
         }

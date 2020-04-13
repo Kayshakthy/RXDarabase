@@ -107,9 +107,39 @@ namespace RxDatabase
             Validate.Attribute(repo.TestAutomationForGUITestingRanore.COMPANYInfo, "InnerText", "COMPANY");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Scroll Vertical by -840 units.", new RecordItemIndex(7));
+            Mouse.ScrollWheel(-840);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Scroll Vertical by 120 units.", new RecordItemIndex(8));
+            Mouse.ScrollWheel(120);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Scroll Vertical by -600 units.", new RecordItemIndex(9));
+            Mouse.ScrollWheel(-600);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Scroll Vertical by 960 units.", new RecordItemIndex(10));
+            Mouse.ScrollWheel(960);
+            Delay.Milliseconds(500);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='What's new') on item 'TestAutomationForGUITestingRanore.WhatsNew'.", repo.TestAutomationForGUITestingRanore.WhatsNewInfo, new RecordItemIndex(11));
+            Validate.Attribute(repo.TestAutomationForGUITestingRanore.WhatsNewInfo, "InnerText", "What's new");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=163,Height=50}) on item 'TestAutomationForGUITestingRanore.WhatsNew'.", repo.TestAutomationForGUITestingRanore.WhatsNewInfo, new RecordItemIndex(12));
+            Validate.ContainsImage(repo.TestAutomationForGUITestingRanore.WhatsNewInfo, WhatsNew_Screenshot1, WhatsNew_Screenshot1_Options);
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data
+        CompressedImage WhatsNew_Screenshot1
+        { get { return repo.TestAutomationForGUITestingRanore.WhatsNewInfo.GetScreenshot1(new Rectangle(0, 0, 163, 50)); } }
+
+        Imaging.FindOptions WhatsNew_Screenshot1_Options
+        { get { return Imaging.FindOptions.Default; } }
+
 #endregion
     }
 #pragma warning restore 0436

@@ -488,6 +488,7 @@ namespace RxDatabase
             RepoItemInfo _solutionsInfo;
             RepoItemInfo _supportInfo;
             RepoItemInfo _companyInfo;
+            WhatsNewInfoClass _whatsnewInfo;
 
             /// <summary>
             /// Creates a new TestAutomationForGUITestingRanore  folder.
@@ -501,6 +502,42 @@ namespace RxDatabase
                 _solutionsInfo = new RepoItemInfo(this, "SOLUTIONS", ".//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']", 30000, null, "0c8bc087-f051-4e5d-97b2-60fcc11cf22b");
                 _supportInfo = new RepoItemInfo(this, "SUPPORT", ".//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']", 30000, null, "60c7ef72-b9b0-4393-b395-a63dd6291ef2");
                 _companyInfo = new RepoItemInfo(this, "COMPANY", ".//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']", 30000, null, "8a4cbe68-99cb-40c0-b25c-87ea1a71b07a");
+                _whatsnewInfo = new WhatsNewInfoClass(this);
+            }
+
+            /// <summary>
+            /// The WhatsNewInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("4caef4a8-8ef7-4775-bf39-cddd040d1939")]
+            public class WhatsNewInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// WhatsNewInfoClass class constructor.
+                /// </summary>
+                public WhatsNewInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "WhatsNew", ".//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']", 30000, null, "4caef4a8-8ef7-4775-bf39-cddd040d1939")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("f9ba5ba5-8321-433d-8f19-65382e0389a4")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("f9ba5ba5-8321-433d-8f19-65382e0389a4");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("f9ba5ba5-8321-433d-8f19-65382e0389a4")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("f9ba5ba5-8321-433d-8f19-65382e0389a4", cropRect);
+                }
             }
 
             /// <summary>
@@ -668,6 +705,30 @@ namespace RxDatabase
                 get
                 {
                     return _companyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WhatsNew item.
+            /// </summary>
+            [RepositoryItem("4caef4a8-8ef7-4775-bf39-cddd040d1939")]
+            public virtual Ranorex.ATag WhatsNew
+            {
+                get
+                {
+                    return _whatsnewInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WhatsNew item info.
+            /// </summary>
+            [RepositoryItemInfo("4caef4a8-8ef7-4775-bf39-cddd040d1939")]
+            public virtual WhatsNewInfoClass WhatsNewInfo
+            {
+                get
+                {
+                    return _whatsnewInfo;
                 }
             }
         }

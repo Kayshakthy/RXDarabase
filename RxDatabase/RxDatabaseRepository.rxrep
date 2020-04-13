@@ -300,6 +300,66 @@ xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
 			refimgid="2cfd981b-c4a9-49ae-aee8-06900a3ee598">
 				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']
 			</item>
+			<item
+			name="WhatsNew"
+			id="4caef4a8-8ef7-4775-bf39-cddd040d1939"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='www.ranorex.com' and @caption='Test Automation for GUI Testing | Ranorex']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']"
+			addcaps="unknown,webelement,atag"
+			refimgid="1db66661-aedc-401f-827c-211617b96039">
+				<image
+				name="Screenshot1"
+				guid="f9ba5ba5-8321-433d-8f19-65382e0389a4">
+					iVBORw0KGgoAAAANSUhEUgAAAKMAAAAyCAYAAAAwVmtmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAACa9JREFUeF7tncFLJEkWh/dPqVMePOXFOriD0AvS1IAgNTgnbegBhR4v
+gtSAIM22zXhwhm0WJBsvDdJs7SLoFDhQM92Kh1GGaYoWV4qlx/agoDuLkBf/gLfxi4zIehkZVVaV
+lWW3HYfvYEVkZVXkl++9iMjq/tPV1RU5HB8CPZXxjz/+S/v7+/T8+XP6/vvv6OuvH9GDBw/o/v37
+9Nlnf3Z85OA6fvFFkUqlEj158ld5nV+9+tnqQjfcWEYIiA8E8Zx0ny4Q9OXLl9IHmyft0LWMOCmi
+nxPQYQIvupGyYxmvkxBpGeF7c3NTpuzDw8Mb3S2ODwdcx/fv38tMiOuL64zrbfMAwBPb+zSjIxkh
+F2oG86RI0fhgEM92nONuA0mRouGB6QaCFryxHWfStow4mRkNcfJeFrCOj59mAQv+2PpzrpVRp2X+
+xjjZTYtVx90GadyU8rq03VJGyIZZEn9DREPUDbb+DgcH/pipGzWmrS9oKaMZEfG3i4aOTjE9QoCz
+9WsqI9IwfwNMUGz9HI52gD/cJ6Rxs49VRhShfLJyXa53ONoBuzZcSHOWnZIRaZgXnsjxLjU7egWv
+IRHweFtKRh5OIaUT0dFLzGDHy7+EjOjI07MtrzscNwVr09ox+KZXZxIy8qiIcMrbHI5ewrcRUUvi
+tVhGMyq2u4XjcHQDto61awDRMZYRKVk3NFsHcjh6Cd9QwVJiLCNv+HjWFA8oGM1RLjdKwYGtPVu2
+Sjh3jkpb9nZHa8wAKGU0U3S2230hVWZxEX1a3LG07y/TsLjAuel1Ojfbrs5pfRrHTtDaMf7OXsZI
+uBJtNW1zMnYLvNPOASkjn9202jvsFUerRXkRi6tHqbaDYFS25TwhQJhsu7raoUVftA0v0778+3Zl
+rK0URFuTm8rRFnwiI2Xks+i+7LbsLJIvhPPmq0bbMa1NiIvv+6LdcpGPVqkIUWcrFMrXspZRv79d
+xujGuZ0S4a7A3ZMy8m2avqwtnq/TNKQqrFCNvx5uUcnL0UQQyPbR4CB53FZJXHweUW9XxujzTNP6
+uaXN0RY8K0sZ+eSlPw/L1milgIs8SxWeimXEHKblfdU+sUbH7Lh0WuSyhHRS/RtNjvjkQXTPp7GF
+CtVTqf6KwpNfqbw0SSO+J44VfQcGaXxhgw4vG31efTtIA2hLwcSUn9cUVXyO3YAeFfTxA3Rvcok2
+Di9ZHwsHAY2K/vIGvDykjYVxGhyIzun5Y7RQqatsYHD6hsqi75D6Lp4/QpNL/HvrMdJ1NkPX56MB
+HfDXBcdrE+IYT9TDYeL1XoMlxISMfHumX88qVucxeBCv8ZqUTdWKO4u+aOey6skLj0R6oL+ix4sj
+kYQG+cUddhFDqlfmaUREX7Mf8MSk6VT11ZOTNE2ipOK8Ok9523HeED159T/rMRIloz8xRV8qCZPk
+xU2YFCOsrdHDvK2v+C7FgGpq7H579hf52vT6eeL4uD5PiWob62zgk5hbkzG680RKXjtWr6l6UUXD
+8/Vp0c6j4D4tD4v2RGrXMoIB+vLZNr2T0e2SDsszkRTePFXj/lf0H3Fe//M5Cn58Q2eyb0gXb8s0
+Iy+qme5F2SDfu7WADdR3EOLMlN/SBWQIL6i+HdDU2AJVW11YJaMUaWiKgu13dInXRZQsz+Sj1xM1
+tvru3gjNl/eofhGJGl7UaXu5KG5Mj2Y2lHwqAiaPjz6rL7IiSqKkqFWaxw1rZKYsSMnIl3XQaB6Q
+CeYAqTqysFKL/j5eownx9/Cy2glSf1sviJB2duPESGO6FDAEC0NruotKAPOidCqjjihfUfnU1t4C
+LePwU9pl5YKktkIFtPF0KksET3ze02Rfifru8fKYuQohUOM9Wzmg1aIY19JWY1zUtUnV7BmRkJFP
+r/v3Cz919xVX6Qh/y8G1REJ9d4r0hzTciKRAy2ifwESp1tYmomF9jzaDb2l2skDDgwNSRJC8AJ3K
+iNQZUBHfa+AeTS4EtLmnItx1aBkt9Vv8OVhbI8W2IO4firFAWdQYi1BMvjyVnmVJ5C/STuK9kyVU
+ViATJ2Tkz5j1b09ap7ToQkcDkJzQ8LoxWps0B6hzGcOTKi193pDP5KYygvBkl17MjZGvalNMQOb+
+8VtrKTuUsXlNy2D9o7KncTPLsVXtkZh6bFV0Z3JmCd+jljLy3yi085PCXrG/PCwGqEArNTUARo3C
+60Y5+Eb917GMoUhXsjb0yB8TdeM/q7T379/pRNRbOtL0QsYY1It7ZVoaR83nUXG1RdrrMjLOVtqc
+7eoyR6bjKOvEJZBK2fK7q+U1+w5Y70nNpm9LxrAyqwb0taxp4npRowawuFqNpEsV1B3KqBbb/cev
+jbrxknaf4sa4uYznp6fpmjSs0CzexyqaokMZw9eP5XfhKwCtUWOFulFuHvCSiE0eVb2YLIeyg//W
+SspoPuxoHpAZakelIGZ0ycHRqLpxelreufGdHNOdjF5xhX45i9b9Lt9tUzA1FC8LJWVU52cTpMuz
+s+bp9lRIk/doaCqg7fpFJKWIjm/1zF7XxzY6lLHx3XOUf8jOJ26sszc/0rO5v9MOK3lAlIkmKAhE
+xjG2W3WZ9OIFVjns45kFfI1bymhuWPdreSee5WGgm6xpRXVj1CedkrpN0yYejYwXpahJGUNx/mhZ
+pYFl8VgT1mjtodlfk6fSlm3mq+hYRhEdW6wz5rx79HTbWBlRM/B8XoypmWVkRPRFm5jo8Fl3hsA7
+vpIjZQR8S7B/qVovhQhSKTgiVKk8lyvS6pHZ3qGMgrBeoaXJe/HuyOD4ApV/FVFPyZCUUSAE+1c8
+GUH/b+iH1OfgXNLhxlJjJ0geM0cvds2lJ4MuZJRgt2Zpkgp6RcDzaeTRM/qpbqkldT1o+54sMPiL
+O0ZbNvCMjEl0LCN/tgxLPfwghyMLzGdoYxnNVO1+duDIEj6LBigNYxkBT9UuOjqyhK9tp36QBczo
+2J8neByfGubqjd71S8gI+MOO7kf8jl4Dn5B1tWP8Ye6UjOjMn+Jxv5929BI+aUFU5MEuJSMwi0ud
+0x2Om8B3W4BZBlplBOaB/dwmdNw9TJ94etY0lRHwkAo+nt9TOz4k+LMPoFmmbSkj4MUmcDWko11Q
+D5oBDT41mxRfKyOwvaH7F8ocrcC8wwxk8KiZiKAtGQFf8tHgZO7/fnFwICFf0Na0U+K1LSMwZ9ka
+GI9I2cp6x90F1x0zYzODAizftJtFO5JRY4uSGnwgtENc0L/H0RxZA+lwPZENIR9myMiO/DEwDV6D
+B50EqK5kBDgJ38t2OAAkREDqJgh1LaMGUuIOsdUJjk8DCIjrj0jY/Rziiv4Pc1+RXOFIVHMAAAAA
+SUVORK5CYII=
+				</image>
+				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']
+			</item>
 			<basepath>
 				/dom[@caption~'^Test\ Automation\ for\ GUI\ T']
 			</basepath>

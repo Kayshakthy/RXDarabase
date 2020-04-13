@@ -11,6 +11,7 @@
     <RanorexVersion>6.1</RanorexVersion>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <projectdefaultrepository>2a98abfb-5822-48c8-b105-d8fa52e4df4a</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -67,6 +68,18 @@
     <Compile Include="AssemblyInfo.cs">
       <id>17e885c5-6df4-4d02-856f-ba1e6a3ee61e</id>
     </Compile>
+    <Compile Include="CloseRanorexSite.cs">
+      <BoundTo>023a02d9-847f-4a9e-a195-0c3871fa2a3f</BoundTo>
+      <DependentUpon>CloseRanorexSite.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e0eefccd-8dc9-4795-89d5-f081450a207e</id>
+    </Compile>
+    <Compile Include="CloseRanorexSite.UserCode.cs">
+      <BoundTo>023a02d9-847f-4a9e-a195-0c3871fa2a3f</BoundTo>
+      <DependentUpon>CloseRanorexSite.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>39484ec4-2728-4d18-841a-07db87d31cd6</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>05441c88-d9ca-400f-b26e-ff128c7bef69</id>
     </Compile>
@@ -104,6 +117,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>b37c9ca1-9db5-46a9-b6a1-c8e82fa72ae6</id>
+    </None>
+    <None Include="CloseRanorexSite.rxrec">
+      <BoundTo>2a98abfb-5822-48c8-b105-d8fa52e4df4a</BoundTo>
+      <id>023a02d9-847f-4a9e-a195-0c3871fa2a3f</id>
+      <recordtableid>ae0aec18-3c7e-47ac-a496-6181ffc641b8</recordtableid>
     </None>
     <None Include="GmailLogin.rxrec">
       <BoundTo>2a98abfb-5822-48c8-b105-d8fa52e4df4a</BoundTo>

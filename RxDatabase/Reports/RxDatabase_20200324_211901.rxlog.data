@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8b37329c33c76ae"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="kirushakthy"
+		host="LAPTOP-I3SMJTM7"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="24/03/2020 21:19:01"
+		timestampiso="2020-03-24T21:19:01"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="47.7s"
+			durationms="47699"
+			type="test suite"
+			rid="15ad8c6650eb02bf"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="RxDatabase"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="47.67s"
+				durationms="47665"
+				type="test case"
+				rid="1a4bdcff42ac5ad7"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="TestCase"
+				testcaseid="e24f386a-56a8-44fc-a365-7524ef6583ef"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="47.63s"
+					durationms="47629"
+					type="test module"
+					rid="e1c7dc003326976"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="GmailLogin"
+					moduleid="44cc5d1d-7783-4790-9fc4-00e8bf58b187"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.381"
+						timeRelativeToTestModuleStartTime="00:00.013"
+						timeWallClock="21:19:01"
+						time="00:00.381"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'http://www.gmail.com' with browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\GmailLogin.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.121"
+						timeRelativeToTestModuleStartTime="00:00.752"
+						timeWallClock="21:19:02"
+						time="00:01.121"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Explorer.MicrosoftEdge1RunningWindow' at 36;29.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[12]"
+							fullname="RxDatabaseRepository.Explorer.MicrosoftEdge1RunningWindow"
+							id="70c0aca9e2f74cb08c4bbf808008cf68"
+							timeout="60000"
+							codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\GmailLogin.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.335"
+						timeRelativeToTestModuleStartTime="00:04.967"
+						timeWallClock="21:19:06"
+						time="00:05.335"
+						level="Info"
+						category="Mouse"
+						errimg="images_RxDataba_157ad814\RxDataba_157ad814_b9d8402f_trace.jpg"
+						errthumb="images_RxDataba_157ad814\RxDataba_157ad814_b9d8402f_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'MicrosoftEdge.Minimize' at 17;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/winapp[@appid='MicrosoftEdge' and @name='Microsoft Edge']/?/?/button[@automationid='Minimize']"
+							fullname="RxDatabaseRepository.MicrosoftEdge.Minimize"
+							id="37cf91513fc0489384b6cd1130ab4296"
+							timeout="60000"
+							codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\GmailLogin.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.238"
+						timeRelativeToTestModuleStartTime="00:06.870"
+						timeWallClock="21:19:08"
+						time="00:07.238"
+						level="Info"
+						category="Mouse"
+						errimg="images_RxDataba_157ad814\RxDataba_157ad814_507ad157_trace.jpg"
+						errthumb="images_RxDataba_157ad814\RxDataba_157ad814_507ad157_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'Gmail.IdentifierId' at 243;36.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='accounts.google.com']//input[#'identifierId']"
+							fullname="RxDatabaseRepository.Gmail.IdentifierId"
+							id="13ee4911b41b45039aff50208004bc03"
+							timeout="60000"
+							codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\GmailLogin.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.745"
+						timeRelativeToTestModuleStartTime="00:47.377"
+						timeWallClock="21:19:48"
+						time="00:47.745"
+						level="Error"
+						category="User"
+						errimg="images_RxDataba_157ad814\RxDataba_157ad814_a40416ba_trace.jpg"
+						errthumb="images_RxDataba_157ad814\RxDataba_157ad814_a40416ba_trace_thumb.jpg">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

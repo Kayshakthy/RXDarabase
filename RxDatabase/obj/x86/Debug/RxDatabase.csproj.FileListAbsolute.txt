@@ -1,0 +1,8 @@
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxDatabase.rxtmg
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxDatabase.rxtst
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxDatabase.exe.config
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxDatabase.exe
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxDatabase.pdb
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.csprojResolveAssemblyReference.cache
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.exe
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.pdb

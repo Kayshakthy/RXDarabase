@@ -131,8 +131,8 @@ namespace RxDatabase
             //Validate.ContainsImage(repo.TestAutomationForGUITestingRanore.WhatsNewInfo, WhatsNew_Screenshot1, WhatsNew_Screenshot1_Options);
             //Delay.Milliseconds(100);
             
-            Call_WebPageNavigation();
-            Delay.Milliseconds(0);
+            //Call_WebPageNavigation();
+            //Delay.Milliseconds(0);
             
         }
 

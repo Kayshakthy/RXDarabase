@@ -90,7 +90,7 @@ rxversion="6.1">
 	</testconfigurations>
 	<references>
 		<reference>
-			RxWebPageNavigation.dll
+			RxWebPageNavigation.csproj
 		</reference>
 	</references>
 </testsuitedoc>

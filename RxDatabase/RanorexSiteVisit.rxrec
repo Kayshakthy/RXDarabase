@@ -3245,16 +3245,6 @@ KKACiiigAooooA//2Q==
 			<matchname/>
 			<matchvalue/>
 		</validationitem>
-		<userrecorditem
-		enabled="False"
-		optional="False"
-		methodname="Call_WebPageNavigation"
-		varname="">
-			<comment/>
-			<bindings/>
-			<arguments
-			id="9b4da600-2e40-4c69-bc94-979fe6bf1dea"/>
-		</userrecorditem>
 	</recorditems>
 	<repository
 	name="RxDatabaseRepository"

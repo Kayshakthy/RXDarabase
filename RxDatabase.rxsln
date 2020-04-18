@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxDatabase", "RxDatabase\RxDatabase.csproj", "{8A07F655-D462-4F1D-A712-40D567B71F0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxWebPageNavigation", "RxWebPageNavigation\RxWebPageNavigation.csproj", "{378C39A8-8FFB-4D8E-AA90-1FC31B9D4025}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,9 +19,5 @@ Global
 		{8A07F655-D462-4F1D-A712-40D567B71F0B}.Debug|x86.ActiveCfg = Debug|x86
 		{8A07F655-D462-4F1D-A712-40D567B71F0B}.Release|x86.Build.0 = Release|x86
 		{8A07F655-D462-4F1D-A712-40D567B71F0B}.Release|x86.ActiveCfg = Release|x86
-		{378C39A8-8FFB-4D8E-AA90-1FC31B9D4025}.Debug|x86.Build.0 = Debug|x86
-		{378C39A8-8FFB-4D8E-AA90-1FC31B9D4025}.Debug|x86.ActiveCfg = Debug|x86
-		{378C39A8-8FFB-4D8E-AA90-1FC31B9D4025}.Release|x86.Build.0 = Release|x86
-		{378C39A8-8FFB-4D8E-AA90-1FC31B9D4025}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -4,9 +4,8 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="RxDatabase.rxtst" />
     <Element value="RanorexSiteVisit.rxrec" />
-    <Element value="CloseRanorexSite.rxrec" />
+    <Element value="RxDatabase.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

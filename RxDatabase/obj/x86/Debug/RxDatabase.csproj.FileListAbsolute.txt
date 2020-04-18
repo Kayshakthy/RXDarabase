@@ -6,3 +6,8 @@ C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatab
 C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.csprojResolveAssemblyReference.cache
 C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.exe
 C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.pdb
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RepositoryImages\RxDatabaseRepository089d70a2.rximgres
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxWebPageNavigation.rxtmg
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RepositoryImages\RxWebPageNavigationRepository75063776.rximgres
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxWebPageNavigation.dll
+C:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\bin\Debug\RxWebPageNavigation.pdb

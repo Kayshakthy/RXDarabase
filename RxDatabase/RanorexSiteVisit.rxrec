@@ -2899,7 +2899,7 @@ KKACiiigAooooA//2Q==
 			</matchvalue>
 		</validationitem>
 		<validationitem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		duration="100ms"
 		screenshotname="Screenshot1"
@@ -3245,6 +3245,16 @@ KKACiiigAooooA//2Q==
 			<matchname/>
 			<matchvalue/>
 		</validationitem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Call_WebPageNavigation"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="9b4da600-2e40-4c69-bc94-979fe6bf1dea"/>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	name="RxDatabaseRepository"

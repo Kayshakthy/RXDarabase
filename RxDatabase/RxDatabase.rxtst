@@ -88,5 +88,9 @@ rxversion="6.1">
 			id="e24f386a-56a8-44fc-a365-7524ef6583ef"/>
 		</testconfiguration>
 	</testconfigurations>
-	<references/>
+	<references>
+		<reference>
+			RxWebPageNavigation.dll
+		</reference>
+	</references>
 </testsuitedoc>

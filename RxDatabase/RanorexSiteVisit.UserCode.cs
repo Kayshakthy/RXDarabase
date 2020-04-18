@@ -31,10 +31,14 @@ namespace RxDatabase
         {
             // Your recording specific initialization code goes here.
         }
+
         public void Call_WebPageNavigation()
         {
-        	RxWebPageNavigation.VisitBBC.Start();
         }
+      //  public void Call_WebPageNavigation()
+    //    {
+   //     	RxWebPageNavigation.VisitBBC.Start();
+   //     }
 
     }
 }

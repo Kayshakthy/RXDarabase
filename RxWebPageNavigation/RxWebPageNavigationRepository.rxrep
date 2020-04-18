@@ -1,0 +1,263 @@
+﻿<repository
+name="RxWebPageNavigationRepository"
+id="171d4ac7-6fff-459f-9f7c-6b4c3d3f8646"
+rxversion="6.1">
+	<codegen
+	classname="RxWebPageNavigationRepository"
+	namespace="RxWebPageNavigation"/>
+	<rootfolder
+	name="Root"
+	id="75063776-e4fe-45e0-8946-473f473d6841"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="BBCHomeInternetExplorer"
+		id="a85885b4-a7e6-4247-a81d-abb9e4da48ec"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='BBC - Home - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="AskMeLater"
+			id="db5e4116-3a6c-46b0-bb37-d078d29f4cfd"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']/element[@class='Frame Notification Bar']/container/toolbar/button[@accessiblename='Ask me later']"
+			addcaps="button,accessible"
+			refimgid="d529d666-14fa-45ad-8e84-916598511073">
+				/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']//toolbar[@accessiblename='Notification']/button[@accessiblename='Ask me later']
+			</item>
+			<item
+			name="ClientCaption"
+			id="a8f3d062-21df-41e7-80d9-4447537f1f0a"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="03f77031-fcf1-4d64-bf69-fd4ff2d92aee">
+				/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']/element[@class='Client Caption']
+			</item>
+			<basepath>
+				/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="BBCHome"
+		id="4d0aa9de-0098-45f5-acc7-5ce0ef1a8ace"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='www.bbc.co.uk']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="WelcomeToTheBBC"
+			id="f5fa665f-13b5-4732-912b-d882f65a38c5"
+			searchtimeout="30000ms"
+			capname="h2tag"
+			refpath="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/div/h2[@innertext='Welcome to the BBC']"
+			addcaps="unknown,webelement,h2tag"
+			refimgid="280cea33-e809-4f26-bdc1-f0bbbde12e7d">
+				<image
+				name="Screenshot1"
+				guid="90ae7ae3-7e13-4d86-a9a0-895346f3ba4c">
+					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
+RK5CYII=
+				</image>
+				/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']
+			</item>
+			<item
+			name="News"
+			id="56fa801f-2603-486f-adab-5da1b8113bec"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']/ul/li[2]/a[@innertext='News']"
+			addcaps="unknown,webelement,atag"
+			refimgid="4048b0b7-0f49-4f8d-8c94-36ffe1eb2f13">
+				<image
+				name="Screenshot1"
+				guid="70628064-f9a1-4f82-b076-1c428cbe4f91">
+					iVBORw0KGgoAAAANSUhEUgAAAEgAAAAwCAYAAACynDzrAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAwpJREFUaEPtlr9r21AQx/s3RZMGD1qsIWCoIYPB0AzJIg2m4EAWETzY
+mQTJEGjoIrKUGkoG04LBIYWCCQEPoVBwCZQUEgLqYGfooOXbe09P/pE4vSZ2oC33gQPrJJ3e++jp
+np8tLS1B4v54dnNzA+F+RBCDCGIQQQwiiEEEMYggBhHEIIIYRBCDCGIQQQwiiEEEMYggBhHEIIIY
+RBCDCGIQQQzzC+pHKFsWLIriXg+JSY/o1PQ5y6qhY1L/EgsVZFkuwu4tRSJoUhCFG2LKkQi6JYjC
+rR9jYE6LoJGgMnajGlz920X92CiaKSjB1cdX8Fcc2Oqc7WBlI8JpnJ7t7RXSexxajTqToB2oGhRe
+E5c6N0CrmubsWkf3vvj0DbbW8sjp51nI5UvwX3fHL+sRLFRQ1I/Jh5tOxK1DO5ohKKZcKnI67NUD
+9NUF3RCOznloahs97BWy6wK09SfcReikuWqLHjQaRw7P/QCNRgONwEfp5Vucq8sfyYIF0XHcQc1N
+B+6GXSR3BGWTdVH78B0/KZMMT7BbVDmHmrxKUA1bHdu0Eun4/ACrVGPd82jFmWtMbiQxe04hxIkq
+uiAWL4gYrxDa1cIgHXgmaDSx2bF6oN73+PMpU9FBq0q/qX63Cc/kkrapW47SVXfxDpVcVieHfMnH
+dnSEr3PKehJBpIh6hmMGm8WfCVKTV1w2vTQXtPEppFq6H/URlSlHfahj+lRx/0xfr0iGX3AUbcMv
+jfvQnV31gTyRICJuIzA9Io3sE8t6h4vNw8/4MXrDCYbX1xhmk8nqFiqolMaNuKtk2R68dVWjAPpv
+Opv4EJVZ43ogTyeIiOkzSJutiokm/X5z/IanYrKGWS3mnG7EhOppeudTMdrliE4dzjLtWgE1Z2rQ
+Gy/MDvnXriBNTL3ENpMcC1Kr5epkeku2nWWsbTXRm9iTz/aL5t6J2oMWquYeR3drw0UHO34J+awP
+qb8O/g7a3+awQ8wv6D9HBDGIIAYRxCCCGEQQgwhiEEEMIohBBDGIIAYRxCCCGEQQgwj6LcAvNZkn
+p/Mv/xcAAAAASUVORK5CYII=
+				</image>
+				/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']
+			</item>
+			<item
+			name="Homepage"
+			id="e28361f0-555e-42ed-a7f5-2343884a426e"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']/div[1]/div[1]/a[@innertext='Homepage']"
+			addcaps="unknown,webelement,atag"
+			refimgid="0262852a-5077-459e-8be4-3144266074b1">
+				<image
+				name="Screenshot1"
+				guid="17e7e994-3efb-4878-b43a-21c3f3151e9b">
+					iVBORw0KGgoAAAANSUhEUgAAAGkAAAAeCAYAAAAvpTBDAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAA2tJREFUaEPtmNFNHDEQhq+PiAIiGoAGIgqIeI4IDYS38BIKCBWEBqCB
+UMFVcBWECq6Cjb4VE6zJrD02Y9897C/9Enfrtcfz2WMfm2nV0Wtzfn42HcKXl59fQ3jT8/Nvs+0o
+M74WcVptR/j29vscw+bk5MN0CBOEFkmy2o7y09PjayRvurj4ZLYd4aurL3MMK6TEKyTlFVLZLkjX
+11/nxC354eHXdH//c0649X7OrZB0DKlJMvEQt/VuyRGQmNfd3Y9pu91Ou91u2u/3/8x3jMFzT85c
+kOjMK5JUA6sVUo2I3+pjye+BxAUDKDUCGovK6g+HQ0KsFu+kRkBC7HarH8stkE5PP85jMPdWLe38
+JkiyXTF/W4G9vPwx+9KOgMT4Eo/EZMlb/uhDKwcJQMRsiV1FfwAkj+wYPlu7LRTSzc23/9pYv3c8
+ZS8CkrUgSJyG5ekX10KyAAHBs/vILfGj7pCwnhzvWe1S94KESUIq7+6ugaRzg9g1jG21XzL9sNCt
+Z6GQCC6Vp7z0hKT7ZnVb7bS9kAAhu0CUuwC0OhSSLi+HLHeYRZIqutzp/pl/7Q7yOAQSgeld5E1I
+D0jEQwLTCw1/L5UTbS8k3c5TOVrcBIkJUzqwdbOrWVERkJDEY8XE56Xdb9kLSZc6T+VocROknEgI
+7a1+LEdByolFU5NAL6RUSyU3wuGQRARtTUx7BCQRJdnqS7sFEotTP49yEySSyIRT60uDqAQqAhIJ
+0vGQaEqflqdvLyRdVntcGnDIxSE1V9BUpTIQASk3BsnVySwd8F5IehEc1cWhdAjXHKi9IWHiTQUE
+q53YC0kvSE/cLe4CSU8y134EJD0GO8BqJ/ZCorxp9dhNQ3ZSLvARkBg/VRQkzPmn5f09JpbfdeTZ
+eh4KicF00JwHhyx3JEwvmtK/bmogYeuCQh5y88bki1zK+7xjtWuCxE2ODlPznT6g0dLA4ghI1u2O
+Pqzk0TaXcFwLiWRbYyHJFTAwueQz7XW++N7qvwmSVwTCBKw+xRGQvCIppVKNayHhHCivhkIiGbxT
+AoRHQWJFlxItboEkZt66vJZEvijBS2O4IHGoMcmcSaxsaw8ccSskKwZt+slNfsnvgSQmZ+SDOLSA
+wq7jOWdmKV8uSD3dCqmnIyBZrlm8qVdIhntBavUKyfBxQpqmv6rgMwEjEv/FAAAAAElFTkSuQmCC
+				</image>
+				/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']
+			</item>
+			<basepath>
+				/dom[@domain='www.bbc.co.uk']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

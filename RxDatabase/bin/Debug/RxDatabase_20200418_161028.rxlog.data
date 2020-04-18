@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="fc68cc98739b76"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="kirushakthy"
+		host="LAPTOP-I3SMJTM7"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="18/04/2020 16:10:28"
+		timestampiso="2020-04-18T15:10:28"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="46.39s"
+			durationms="46393"
+			type="test suite"
+			rid="108868cfc5f24e5"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="RxDatabase"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="46.36s"
+				durationms="46359"
+				type="test case"
+				rid="dd7d436f8cd8a6d"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="RanorexSite"
+				testcaseid="e24f386a-56a8-44fc-a365-7524ef6583ef"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="15.56s"
+					durationms="15561"
+					type="test case setup"
+					rid="11d88f94acf64e6"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="15.53s"
+						durationms="15530"
+						type="test module"
+						rid="2af9dfcc34d9ff4d"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="RanorexSiteVisit"
+						moduleid="39a2b104-3a0e-4999-be86-20cfec731dac"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Screenshot of item 'RxWebPageNavigationRepository.BBCHome.News' does not contain the specified image.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.310"
+							timeRelativeToTestModuleStartTime="00:00.029"
+							timeWallClock="16:10:29"
+							time="00:00.310"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://www.bbc.com' with browser 'IE' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="82"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.842"
+							timeRelativeToTestModuleStartTime="00:00.562"
+							timeWallClock="16:10:29"
+							time="00:00.842"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Welcome to the BBC') on item 'BBCHome.WelcomeToTheBBC'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.587"
+							timeRelativeToTestModuleStartTime="00:11.306"
+							timeWallClock="16:10:40"
+							time="00:11.587"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:11.743"
+							timeRelativeToTestModuleStartTime="00:11.463"
+							timeWallClock="16:10:40"
+							time="00:11.743"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=1220,Height=42}) on item 'BBCHome.WelcomeToTheBBC'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.023"
+							timeRelativeToTestModuleStartTime="00:12.742"
+							timeWallClock="16:10:41"
+							time="00:13.023"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC' does contain the specified image.
+							</message>
+							<metainfo
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="95"
+								loglvl="Success"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								itemindex="3"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.206"
+							timeRelativeToTestModuleStartTime="00:12.926"
+							timeWallClock="16:10:41"
+							time="00:13.206"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='News') on item 'BBCHome.News'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="98"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.889"
+							timeRelativeToTestModuleStartTime="00:13.609"
+							timeWallClock="16:10:42"
+							time="00:13.889"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxWebPageNavigationRepository.BBCHome.News' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="99"
+								loglvl="Success"
+								itemindex="4"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.060"
+							timeRelativeToTestModuleStartTime="00:13.780"
+							timeWallClock="16:10:42"
+							time="00:14.060"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Href='https://www.bbc.co.uk/news') on item 'BBCHome.News'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="102"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.627"
+							timeRelativeToTestModuleStartTime="00:14.347"
+							timeWallClock="16:10:43"
+							time="00:14.627"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Href' of element for item 'RxWebPageNavigationRepository.BBCHome.News' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="103"
+								loglvl="Success"
+								itemindex="5"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.792"
+							timeRelativeToTestModuleStartTime="00:14.512"
+							timeWallClock="16:10:43"
+							time="00:14.792"
+							level="Info"
+							category="Validation"
+							errimg="images_RxDataba_88aed312\RxDataba_88aed312_de4fab9f_trace.jpg"
+							errthumb="images_RxDataba_88aed312\RxDataba_88aed312_de4fab9f_trace_thumb.jpg">
+							<message>
+								Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=72,Height=48}) on item 'BBCHome.News'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="106"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.444"
+							timeRelativeToTestModuleStartTime="00:15.164"
+							timeWallClock="16:10:44"
+							time="00:15.444"
+							level="Failure"
+							category="Validation"
+							errimg="images_RxDataba_88aed312\RxDataba_88aed312_69fd15e6_trace.jpg"
+							errthumb="images_RxDataba_88aed312\RxDataba_88aed312_69fd15e6_trace_thumb.jpg">
+							<message>
+								Screenshot of item 'RxWebPageNavigationRepository.BBCHome.News' does not contain the specified image.
+							</message>
+							<metainfo
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="107"
+								loglvl="Failure"
+								id="56fa801f2603486fadab5da1b8113bec"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								itemindex="6"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.549"
+							timeRelativeToTestModuleStartTime="00:15.269"
+							timeWallClock="16:10:44"
+							time="00:15.549"
+							level="Failure"
+							category="Expected image">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_RxDataba_88aed312\RxDataba_d010ba29_rxlog.jpg"><img src="images_RxDataba_88aed312\RxDataba_d010ba29_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="107"
+								loglvl="Failure"
+								itemindex="6"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.572"
+							timeRelativeToTestModuleStartTime="00:15.292"
+							timeWallClock="16:10:44"
+							time="00:15.572"
+							level="Failure"
+							category="Searched image">
+							<message>
+								<a class="thickbox" style="padding-right:8px" rel="module" href="images_RxDataba_88aed312\RxDataba_44abba29_rxlog.jpg"><img src="images_RxDataba_88aed312\RxDataba_44abba29_rxlog_thumb.jpg" alt="Screenshot"/></a>
+							</message>
+							<metainfo
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="107"
+								loglvl="Failure"
+								itemindex="6"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.581"
+							timeRelativeToTestModuleStartTime="00:15.301"
+							timeWallClock="16:10:44"
+							time="00:15.581"
+							level="Error"
+							category="Module"
+							errimg="images_RxDataba_88aed312\RxDataba_88aed312_1781246b_trace.jpg"
+							errthumb="images_RxDataba_88aed312\RxDataba_88aed312_1781246b_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Screenshot of item 'RxWebPageNavigationRepository.BBCHome.News' does not contain the specified image.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.ContainsImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at RxWebPageNavigation.VisitBBC.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs:line 107
+   at Ranorex.Core.Testing.TestModuleRunner.Run()
+   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)
+   at RxWebPageNavigation.VisitBBC.Start() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs:line 64
+   at RxDatabase.RanorexSiteVisit.Call_WebPageNavigation() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.UserCode.cs:line 38
+   at RxDatabase.RanorexSiteVisit.Init() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.UserCode.cs:line 33
+   at RxDatabase.RanorexSiteVisit.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="107"
+								loglvl="Error"
+								id="56fa801f2603486fadab5da1b8113bec"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								itemindex="6"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="30.79s"
+					durationms="30791"
+					type="test case teardown"
+					rid="214e588c1e377d1"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="30.79s"
+						durationms="30788"
+						type="test module"
+						rid="451d22b06094138"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CloseRanorexSite"
+						moduleid="ae0aec18-3c7e-47ac-a496-6181ffc641b8"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.Self'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.819"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="16:10:44"
+							time="00:15.819"
+							level="Info"
+							category="Application"
+							errimg="images_RxDataba_88aed312\RxDataba_88aed312_1933128c_trace.jpg"
+							errthumb="images_RxDataba_88aed312\RxDataba_88aed312_1933128c_trace_thumb.jpg">
+							<message>
+								Closing application containing item 'TestAutomationForGUITestingRanore'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.Self"
+								id="df4b791d66444d05b2970b8f692e81e1"
+								timeout="30000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:46.444"
+							timeRelativeToTestModuleStartTime="00:30.628"
+							timeWallClock="16:11:15"
+							time="00:46.444"
+							level="Error"
+							category="Module"
+							errimg="images_RxDataba_88aed312\RxDataba_88aed312_e8d53ead_trace.jpg"
+							errthumb="images_RxDataba_88aed312\RxDataba_88aed312_e8d53ead_trace_thumb.jpg">
+							<message>
+								Failed to find item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.Self'.<br/>No element found for path '/dom[@caption~'^Test\ Automation\ for\ GUI\ T']' within 30s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at RxDatabase.RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.get_Self() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RxDatabaseRepository.cs:line 551
+   at RxDatabase.CloseRanorexSite.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs"
+								codeline="83"
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.Self"
+								id="df4b791d66444d05b2970b8f692e81e1"
+								timeout="30000"
+								loglvl="Error"
+								itemindex="0"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

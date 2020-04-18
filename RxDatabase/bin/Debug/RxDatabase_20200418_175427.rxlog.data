@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1835f753aa3e08e8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="kirushakthy"
+		host="LAPTOP-I3SMJTM7"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="18/04/2020 17:54:27"
+		timestampiso="2020-04-18T16:54:27"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="51.47s"
+			durationms="51471"
+			type="test suite"
+			rid="1de2291c1a10d332"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="RxDatabase"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="51.43s"
+				durationms="51432"
+				type="test case"
+				rid="38e9e8a0c63c9fd"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="RanorexSite"
+				testcaseid="e24f386a-56a8-44fc-a365-7524ef6583ef"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="50.44s"
+					durationms="50442"
+					type="test case setup"
+					rid="987a1ed95ce514b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="50.4s"
+						durationms="50396"
+						type="test module"
+						rid="91e1b094bb4a2d4"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="RanorexSiteVisit"
+						moduleid="39a2b104-3a0e-4999-be86-20cfec731dac"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.317"
+							timeRelativeToTestModuleStartTime="00:00.012"
+							timeWallClock="17:54:27"
+							time="00:00.317"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://www.ranorex.com' with browser 'IE' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="82"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.066"
+							timeRelativeToTestModuleStartTime="00:00.761"
+							timeWallClock="17:54:28"
+							time="00:01.066"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Src='https://www.ranorex.com/app/themes/rx-sage/dist/images/logos/rx-header-logo-desktop_5e6a8079.svg') on item 'TestAutomationForGUITestingRanore.RanorexLogo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//img[@alt='Ranorex Logo']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.RanorexLogo"
+								id="2352a1c60568497cb74a978bc53004ae"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.358"
+							timeRelativeToTestModuleStartTime="00:15.054"
+							timeWallClock="17:54:42"
+							time="00:15.358"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Src' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.RanorexLogo' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//img[@alt='Ranorex Logo']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.RanorexLogo"
+								id="2352a1c60568497cb74a978bc53004ae"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="87"
+								loglvl="Success"
+								itemindex="1"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.569"
+							timeRelativeToTestModuleStartTime="00:15.265"
+							timeWallClock="17:54:43"
+							time="00:15.569"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Test Automation for All') on item 'TestAutomationForGUITestingRanore.TestAutomationForAll'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.TestAutomationForAll"
+								id="7331b02415014ffd954e905b06b104f7"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.703"
+							timeRelativeToTestModuleStartTime="00:16.399"
+							timeWallClock="17:54:44"
+							time="00:16.703"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.TestAutomationForAll' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.TestAutomationForAll"
+								id="7331b02415014ffd954e905b06b104f7"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.874"
+							timeRelativeToTestModuleStartTime="00:16.570"
+							timeWallClock="17:54:44"
+							time="00:16.874"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'TestAutomationForGUITestingRanore.PRODUCTS'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'productMenuButton']/span[@innertext='PRODUCTS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.PRODUCTS"
+								id="de0a6c2fdd78420e9cfeabf140c8d574"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.607"
+							timeRelativeToTestModuleStartTime="00:17.303"
+							timeWallClock="17:54:45"
+							time="00:17.607"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'PRODUCTS' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'productMenuButton']/span[@innertext='PRODUCTS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.PRODUCTS"
+								id="de0a6c2fdd78420e9cfeabf140c8d574"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.771"
+							timeRelativeToTestModuleStartTime="00:17.467"
+							timeWallClock="17:54:45"
+							time="00:17.771"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='SOLUTIONS') on item 'TestAutomationForGUITestingRanore.SOLUTIONS'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SOLUTIONS"
+								id="0c8bc087f0514e5d97b260fcc11cf22b"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="98"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.429"
+							timeRelativeToTestModuleStartTime="00:18.125"
+							timeWallClock="17:54:45"
+							time="00:18.429"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.SOLUTIONS' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SOLUTIONS"
+								id="0c8bc087f0514e5d97b260fcc11cf22b"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="99"
+								loglvl="Success"
+								itemindex="4"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.614"
+							timeRelativeToTestModuleStartTime="00:18.310"
+							timeWallClock="17:54:46"
+							time="00:18.614"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='SUPPORT') on item 'TestAutomationForGUITestingRanore.SUPPORT'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SUPPORT"
+								id="60c7ef72b9b04393b395a63dd6291ef2"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="102"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.676"
+							timeRelativeToTestModuleStartTime="00:19.372"
+							timeWallClock="17:54:47"
+							time="00:19.676"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.SUPPORT' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SUPPORT"
+								id="60c7ef72b9b04393b395a63dd6291ef2"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="103"
+								loglvl="Success"
+								itemindex="5"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.880"
+							timeRelativeToTestModuleStartTime="00:19.576"
+							timeWallClock="17:54:47"
+							time="00:19.880"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='COMPANY') on item 'TestAutomationForGUITestingRanore.COMPANY'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.COMPANY"
+								id="8a4cbe6899cb40c0b25c87ea1a71b07a"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="106"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:20.946"
+							timeRelativeToTestModuleStartTime="00:20.641"
+							timeWallClock="17:54:48"
+							time="00:20.946"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.COMPANY' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.COMPANY"
+								id="8a4cbe6899cb40c0b25c87ea1a71b07a"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="107"
+								loglvl="Success"
+								itemindex="6"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.127"
+							timeRelativeToTestModuleStartTime="00:20.823"
+							timeWallClock="17:54:48"
+							time="00:21.127"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by -840 units.
+							</message>
+							<metainfo
+								itemindex="7"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="110"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.712"
+							timeRelativeToTestModuleStartTime="00:21.408"
+							timeWallClock="17:54:49"
+							time="00:21.712"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by 120 units.
+							</message>
+							<metainfo
+								itemindex="8"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="114"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.281"
+							timeRelativeToTestModuleStartTime="00:21.977"
+							timeWallClock="17:54:49"
+							time="00:22.281"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by -600 units.
+							</message>
+							<metainfo
+								itemindex="9"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="118"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:22.868"
+							timeRelativeToTestModuleStartTime="00:22.564"
+							timeWallClock="17:54:50"
+							time="00:22.868"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by 960 units.
+							</message>
+							<metainfo
+								itemindex="10"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="122"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:23.433"
+							timeRelativeToTestModuleStartTime="00:23.129"
+							timeWallClock="17:54:50"
+							time="00:23.433"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='What's new') on item 'TestAutomationForGUITestingRanore.WhatsNew'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.WhatsNew"
+								id="4caef4a88ef74775bf39cddd040d1939"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="126"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.206"
+							timeRelativeToTestModuleStartTime="00:23.902"
+							timeWallClock="17:54:51"
+							time="00:24.206"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.WhatsNew' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.WhatsNew"
+								id="4caef4a88ef74775bf39cddd040d1939"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="127"
+								loglvl="Success"
+								itemindex="11"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.406"
+							timeRelativeToTestModuleStartTime="00:24.102"
+							timeWallClock="17:54:51"
+							time="00:24.406"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://www.bbc.com' with browser 'IE' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="82"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.655"
+							timeRelativeToTestModuleStartTime="00:24.350"
+							timeWallClock="17:54:52"
+							time="00:24.655"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Welcome to the BBC') on item 'BBCHome.WelcomeToTheBBC'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.493"
+							timeRelativeToTestModuleStartTime="00:39.189"
+							timeWallClock="17:55:06"
+							time="00:39.493"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:39.707"
+							timeRelativeToTestModuleStartTime="00:39.403"
+							timeWallClock="17:55:07"
+							time="00:39.707"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=1220,Height=42}) on item 'BBCHome.WelcomeToTheBBC'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.631"
+							timeRelativeToTestModuleStartTime="00:40.327"
+							timeWallClock="17:55:08"
+							time="00:40.631"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC' does contain the specified image.
+							</message>
+							<metainfo
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="95"
+								loglvl="Success"
+								id="f5fa665f13b54732912bd882f65a38c5"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-modules']/div[2]/section[1]/?/?/h2[@innertext='Welcome to the BBC']"
+								fullname="RxWebPageNavigationRepository.BBCHome.WelcomeToTheBBC"
+								itemindex="3"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.801"
+							timeRelativeToTestModuleStartTime="00:40.497"
+							timeWallClock="17:55:08"
+							time="00:40.801"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='News') on item 'BBCHome.News'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="98"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:41.745"
+							timeRelativeToTestModuleStartTime="00:41.441"
+							timeWallClock="17:55:09"
+							time="00:41.745"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxWebPageNavigationRepository.BBCHome.News' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="99"
+								loglvl="Success"
+								itemindex="4"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:41.922"
+							timeRelativeToTestModuleStartTime="00:41.618"
+							timeWallClock="17:55:09"
+							time="00:41.922"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Href='https://www.bbc.co.uk/news') on item 'BBCHome.News'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="102"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.812"
+							timeRelativeToTestModuleStartTime="00:42.508"
+							timeWallClock="17:55:10"
+							time="00:42.812"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Href' of element for item 'RxWebPageNavigationRepository.BBCHome.News' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-nav-links']//a[@innertext='News']"
+								fullname="RxWebPageNavigationRepository.BBCHome.News"
+								id="56fa801f2603486fadab5da1b8113bec"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="103"
+								loglvl="Success"
+								itemindex="5"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.988"
+							timeRelativeToTestModuleStartTime="00:42.683"
+							timeWallClock="17:55:10"
+							time="00:42.988"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Homepage') on item 'BBCHome.Homepage'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								id="e28361f0555e42eda7f52343884a426e"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="110"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:43.817"
+							timeRelativeToTestModuleStartTime="00:43.513"
+							timeWallClock="17:55:11"
+							time="00:43.817"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxWebPageNavigationRepository.BBCHome.Homepage' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								id="e28361f0555e42eda7f52343884a426e"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="111"
+								loglvl="Success"
+								itemindex="7"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:43.982"
+							timeRelativeToTestModuleStartTime="00:43.678"
+							timeWallClock="17:55:11"
+							time="00:43.982"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Href='https://www.bbc.co.uk/') on item 'BBCHome.Homepage'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								id="e28361f0555e42eda7f52343884a426e"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="114"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.705"
+							timeRelativeToTestModuleStartTime="00:44.401"
+							timeWallClock="17:55:12"
+							time="00:44.705"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Href' of element for item 'RxWebPageNavigationRepository.BBCHome.Homepage' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								id="e28361f0555e42eda7f52343884a426e"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="115"
+								loglvl="Success"
+								itemindex="8"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:44.882"
+							timeRelativeToTestModuleStartTime="00:44.578"
+							timeWallClock="17:55:12"
+							time="00:44.882"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=105,Height=30}) on item 'BBCHome.Homepage'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								id="e28361f0555e42eda7f52343884a426e"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="118"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.721"
+							timeRelativeToTestModuleStartTime="00:45.417"
+							timeWallClock="17:55:13"
+							time="00:45.721"
+							level="Success"
+							category="Validation">
+							<message>
+								Screenshot of item 'RxWebPageNavigationRepository.BBCHome.Homepage' does contain the specified image.
+							</message>
+							<metainfo
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="119"
+								loglvl="Success"
+								id="e28361f0555e42eda7f52343884a426e"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								itemindex="9"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.898"
+							timeRelativeToTestModuleStartTime="00:45.594"
+							timeWallClock="17:55:13"
+							time="00:45.898"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'BBCHome.Homepage' at 63;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.bbc.co.uk']//div[#'orb-header']//a[@innertext='Homepage']"
+								fullname="RxWebPageNavigationRepository.BBCHome.Homepage"
+								id="e28361f0555e42eda7f52343884a426e"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="122"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:47.885"
+							timeRelativeToTestModuleStartTime="00:47.581"
+							timeWallClock="17:55:15"
+							time="00:47.885"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'BBCHomeInternetExplorer.ClientCaption' at 1890;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']/element[@class='Client Caption']"
+								fullname="RxWebPageNavigationRepository.BBCHomeInternetExplorer.ClientCaption"
+								id="a8f3d06221df41e780d94447537f1f0a"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="126"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="983ms"
+					durationms="983"
+					type="test case teardown"
+					rid="2a894f27fc6b9b5"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="980ms"
+						durationms="980"
+						type="test module"
+						rid="76d6b8b97fd92f7"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CloseRanorexSite"
+						moduleid="ae0aec18-3c7e-47ac-a496-6181ffc641b8"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:50.720"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="17:55:18"
+							time="00:50.720"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'TestAutomationForGUITestingRanore'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.Self"
+								id="df4b791d66444d05b2970b8f692e81e1"
+								timeout="30000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

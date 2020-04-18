@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="RxWebPageNavigation"
+      id="00ae8429-a7d5-4924-bbbf-12d6093474d4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="RxWebPageNavigation"
+      id="00ae8429-a7d5-4924-bbbf-12d6093474d4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

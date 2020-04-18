@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="25c6e9e81cc0e4f"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="kirushakthy"
+		host="LAPTOP-I3SMJTM7"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="18/04/2020 16:07:49"
+		timestampiso="2020-04-18T15:07:49"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.6m"
+			durationms="93865"
+			type="test suite"
+			rid="6ed3421918712b2"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="RxDatabase"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.6m"
+				durationms="93827"
+				type="test case"
+				rid="10c05ff1c52a4de0"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="RanorexSite"
+				testcaseid="e24f386a-56a8-44fc-a365-7524ef6583ef"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="62982"
+					type="test case setup"
+					rid="8b74506ede2a337"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="1m"
+						durationms="62952"
+						type="test module"
+						rid="20e3f7cdff3e57d6"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="RanorexSiteVisit"
+						moduleid="39a2b104-3a0e-4999-be86-20cfec731dac"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'RxWebPageNavigationRepository.BBCHomeInternetExplorer.AskMeLater'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.313"
+							timeRelativeToTestModuleStartTime="00:00.031"
+							timeWallClock="16:07:49"
+							time="00:00.313"
+							level="Info"
+							category="Website"
+							errimg="images_RxDataba_cd8447ab\RxDataba_cd8447ab_2364e2c6_trace.jpg"
+							errthumb="images_RxDataba_cd8447ab\RxDataba_cd8447ab_2364e2c6_trace_thumb.jpg">
+							<message>
+								Opening web site 'http://www.bbc.com' with browser 'IE' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="82"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.853"
+							timeRelativeToTestModuleStartTime="00:00.572"
+							timeWallClock="16:07:49"
+							time="00:00.853"
+							level="Info"
+							category="Mouse"
+							errimg="images_RxDataba_cd8447ab\RxDataba_cd8447ab_3c30fbce_trace.jpg"
+							errthumb="images_RxDataba_cd8447ab\RxDataba_cd8447ab_3c30fbce_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'BBCHomeInternetExplorer.AskMeLater' at 86;20.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']//toolbar[@accessiblename='Notification']/button[@accessiblename='Ask me later']"
+								fullname="RxWebPageNavigationRepository.BBCHomeInternetExplorer.AskMeLater"
+								id="db5e41163a6c46b0bb37d078d29f4cfd"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.020"
+							timeRelativeToTestModuleStartTime="01:02.739"
+							timeWallClock="16:08:52"
+							time="01:03.020"
+							level="Error"
+							category="Module"
+							errimg="images_RxDataba_cd8447ab\RxDataba_cd8447ab_11c72f45_trace.jpg"
+							errthumb="images_RxDataba_cd8447ab\RxDataba_cd8447ab_11c72f45_trace_thumb.jpg">
+							<message>
+								Failed to find item 'RxWebPageNavigationRepository.BBCHomeInternetExplorer.AskMeLater'.<br/>No element found for path '/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']//toolbar[@accessiblename='Notification']/button[@accessiblename='Ask me later']' within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at RxWebPageNavigation.RxWebPageNavigationRepositoryFolders.BBCHomeInternetExplorerAppFolder.get_AskMeLater() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\RxWebPageNavigationRepository.cs:line 144
+   at RxWebPageNavigation.VisitBBC.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs:line 87
+   at Ranorex.Core.Testing.TestModuleRunner.Run()
+   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)
+   at RxWebPageNavigation.VisitBBC.Start() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs:line 64
+   at RxDatabase.RanorexSiteVisit.Call_WebPageNavigation() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.UserCode.cs:line 38
+   at RxDatabase.RanorexSiteVisit.Init() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.UserCode.cs:line 33
+   at RxDatabase.RanorexSiteVisit.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs:line 80
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxWebPageNavigation\VisitBBC.cs"
+								codeline="87"
+								type="repoitem"
+								path="/form[@title~'^BBC\ -\ Home\ -\ Internet\ Exp']//toolbar[@accessiblename='Notification']/button[@accessiblename='Ask me later']"
+								fullname="RxWebPageNavigationRepository.BBCHomeInternetExplorer.AskMeLater"
+								id="db5e41163a6c46b0bb37d078d29f4cfd"
+								timeout="60000"
+								loglvl="Error"
+								itemindex="1"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="30.84s"
+					durationms="30837"
+					type="test case teardown"
+					rid="e5e0751bb43a810"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="30.83s"
+						durationms="30830"
+						type="test module"
+						rid="1ba63a0a1096b714"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CloseRanorexSite"
+						moduleid="ae0aec18-3c7e-47ac-a496-6181ffc641b8"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Failed to find item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.Self'.
+						</errmsg>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.241"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="16:08:52"
+							time="01:03.241"
+							level="Info"
+							category="Application"
+							errimg="images_RxDataba_cd8447ab\RxDataba_cd8447ab_8f25a774_trace.jpg"
+							errthumb="images_RxDataba_cd8447ab\RxDataba_cd8447ab_8f25a774_trace_thumb.jpg">
+							<message>
+								Closing application containing item 'TestAutomationForGUITestingRanore'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.Self"
+								id="df4b791d66444d05b2970b8f692e81e1"
+								timeout="30000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:33.884"
+							timeRelativeToTestModuleStartTime="00:30.645"
+							timeWallClock="16:09:22"
+							time="01:33.884"
+							level="Error"
+							category="Module"
+							errimg="images_RxDataba_cd8447ab\RxDataba_cd8447ab_cd831b22_trace.jpg"
+							errthumb="images_RxDataba_cd8447ab\RxDataba_cd8447ab_cd831b22_trace_thumb.jpg">
+							<message>
+								Failed to find item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.Self'.<br/>No element found for path '/dom[@caption~'^Test\ Automation\ for\ GUI\ T']' within 30s.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at RxDatabase.RxDatabaseRepositoryFolders.TestAutomationForGUITestingRanoreAppFolder.get_Self() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RxDatabaseRepository.cs:line 551
+   at RxDatabase.CloseRanorexSite.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs"
+								codeline="83"
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.Self"
+								id="df4b791d66444d05b2970b8f692e81e1"
+								timeout="30000"
+								loglvl="Error"
+								itemindex="0"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

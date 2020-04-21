@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="364aceea5adaeb8c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="kirushakthy"
+		host="LAPTOP-I3SMJTM7"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1920x1080"
+		timestamp="18/04/2020 20:27:57"
+		timestampiso="2020-04-18T19:27:57"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="19.82s"
+			durationms="19815"
+			type="test suite"
+			rid="9b298ac7a7892c"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="RxDatabase"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="19.78s"
+				durationms="19779"
+				type="test case"
+				rid="11e29d500776aa8c"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="RanorexSite"
+				testcaseid="e24f386a-56a8-44fc-a365-7524ef6583ef"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="19.22s"
+					durationms="19223"
+					type="test case setup"
+					rid="6a68009fe7a3719"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="19.19s"
+						durationms="19188"
+						type="test module"
+						rid="6493970c9d7bb68"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="RanorexSiteVisit"
+						moduleid="39a2b104-3a0e-4999-be86-20cfec731dac"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.326"
+							timeRelativeToTestModuleStartTime="00:00.010"
+							timeWallClock="20:27:58"
+							time="00:00.326"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://www.ranorex.com' with browser 'IE' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="82"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:01.002"
+							timeRelativeToTestModuleStartTime="00:00.687"
+							timeWallClock="20:27:58"
+							time="00:01.002"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Src='https://www.ranorex.com/app/themes/rx-sage/dist/images/logos/rx-header-logo-desktop_5e6a8079.svg') on item 'TestAutomationForGUITestingRanore.RanorexLogo'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//img[@alt='Ranorex Logo']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.RanorexLogo"
+								id="2352a1c60568497cb74a978bc53004ae"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.051"
+							timeRelativeToTestModuleStartTime="00:11.736"
+							timeWallClock="20:28:09"
+							time="00:12.051"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Src' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.RanorexLogo' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//img[@alt='Ranorex Logo']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.RanorexLogo"
+								id="2352a1c60568497cb74a978bc53004ae"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="87"
+								loglvl="Success"
+								itemindex="1"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.276"
+							timeRelativeToTestModuleStartTime="00:11.961"
+							timeWallClock="20:28:10"
+							time="00:12.276"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='Test Automation for All') on item 'TestAutomationForGUITestingRanore.TestAutomationForAll'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.TestAutomationForAll"
+								id="7331b02415014ffd954e905b06b104f7"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.190"
+							timeRelativeToTestModuleStartTime="00:12.875"
+							timeWallClock="20:28:11"
+							time="00:13.190"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.TestAutomationForAll' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[1]/div/div/div/?/?/h1[@innertext='Test Automation for All']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.TestAutomationForAll"
+								id="7331b02415014ffd954e905b06b104f7"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="91"
+								loglvl="Success"
+								itemindex="2"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.376"
+							timeRelativeToTestModuleStartTime="00:13.061"
+							timeWallClock="20:28:11"
+							time="00:13.376"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'TestAutomationForGUITestingRanore.PRODUCTS'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'productMenuButton']/span[@innertext='PRODUCTS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.PRODUCTS"
+								id="de0a6c2fdd78420e9cfeabf140c8d574"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="94"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.944"
+							timeRelativeToTestModuleStartTime="00:13.629"
+							timeWallClock="20:28:11"
+							time="00:13.944"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'PRODUCTS' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'productMenuButton']/span[@innertext='PRODUCTS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.PRODUCTS"
+								id="de0a6c2fdd78420e9cfeabf140c8d574"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="95"
+								loglvl="Success"
+								itemindex="3"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.103"
+							timeRelativeToTestModuleStartTime="00:13.788"
+							timeWallClock="20:28:11"
+							time="00:14.103"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='SOLUTIONS') on item 'TestAutomationForGUITestingRanore.SOLUTIONS'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SOLUTIONS"
+								id="0c8bc087f0514e5d97b260fcc11cf22b"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="98"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.686"
+							timeRelativeToTestModuleStartTime="00:14.371"
+							timeWallClock="20:28:12"
+							time="00:14.686"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.SOLUTIONS' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//li[#'solutionMenuButton']/span[@innertext='SOLUTIONS']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SOLUTIONS"
+								id="0c8bc087f0514e5d97b260fcc11cf22b"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="99"
+								loglvl="Success"
+								itemindex="4"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.851"
+							timeRelativeToTestModuleStartTime="00:14.536"
+							timeWallClock="20:28:12"
+							time="00:14.851"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='SUPPORT') on item 'TestAutomationForGUITestingRanore.SUPPORT'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SUPPORT"
+								id="60c7ef72b9b04393b395a63dd6291ef2"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="102"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.510"
+							timeRelativeToTestModuleStartTime="00:15.195"
+							timeWallClock="20:28:13"
+							time="00:15.510"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.SUPPORT' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='SUPPORT']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.SUPPORT"
+								id="60c7ef72b9b04393b395a63dd6291ef2"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="103"
+								loglvl="Success"
+								itemindex="5"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.668"
+							timeRelativeToTestModuleStartTime="00:15.352"
+							timeWallClock="20:28:13"
+							time="00:15.668"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='COMPANY') on item 'TestAutomationForGUITestingRanore.COMPANY'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.COMPANY"
+								id="8a4cbe6899cb40c0b25c87ea1a71b07a"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="106"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.216"
+							timeRelativeToTestModuleStartTime="00:15.901"
+							timeWallClock="20:28:14"
+							time="00:16.216"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.COMPANY' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'rx-header-sticky-content-wrapper']//ul/?/?/span[@innertext='COMPANY']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.COMPANY"
+								id="8a4cbe6899cb40c0b25c87ea1a71b07a"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="107"
+								loglvl="Success"
+								itemindex="6"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.386"
+							timeRelativeToTestModuleStartTime="00:16.071"
+							timeWallClock="20:28:14"
+							time="00:16.386"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by -840 units.
+							</message>
+							<metainfo
+								itemindex="7"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="110"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.951"
+							timeRelativeToTestModuleStartTime="00:16.636"
+							timeWallClock="20:28:14"
+							time="00:16.951"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by 120 units.
+							</message>
+							<metainfo
+								itemindex="8"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="114"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.551"
+							timeRelativeToTestModuleStartTime="00:17.235"
+							timeWallClock="20:28:15"
+							time="00:17.551"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by -600 units.
+							</message>
+							<metainfo
+								itemindex="9"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="118"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.109"
+							timeRelativeToTestModuleStartTime="00:17.794"
+							timeWallClock="20:28:15"
+							time="00:18.109"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Scroll Vertical by 960 units.
+							</message>
+							<metainfo
+								itemindex="10"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="122"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.659"
+							timeRelativeToTestModuleStartTime="00:18.343"
+							timeWallClock="20:28:16"
+							time="00:18.659"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (InnerText='What's new') on item 'TestAutomationForGUITestingRanore.WhatsNew'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.WhatsNew"
+								id="4caef4a88ef74775bf39cddd040d1939"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="126"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.332"
+							timeRelativeToTestModuleStartTime="00:19.017"
+							timeWallClock="20:28:17"
+							time="00:19.332"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'InnerText' of element for item 'RxDatabaseRepository.TestAutomationForGUITestingRanore.WhatsNew' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']//div[#'et_builder_outer_content']/div/div[2]/div/div/div[2]/a[@innertext='What''s new']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.WhatsNew"
+								id="4caef4a88ef74775bf39cddd040d1939"
+								timeout="60000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\RanorexSiteVisit.cs"
+								codeline="127"
+								loglvl="Success"
+								itemindex="11"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="548ms"
+					durationms="548"
+					type="test case teardown"
+					rid="3459d82af4cf71fc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="539ms"
+						durationms="539"
+						type="test module"
+						rid="29b77654e0fa50"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CloseRanorexSite"
+						moduleid="ae0aec18-3c7e-47ac-a496-6181ffc641b8"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.511"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="20:28:17"
+							time="00:19.511"
+							level="Info"
+							category="Application">
+							<message>
+								Closing application containing item 'TestAutomationForGUITestingRanore'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@caption~'^Test\ Automation\ for\ GUI\ T']"
+								fullname="RxDatabaseRepository.TestAutomationForGUITestingRanore.Self"
+								id="df4b791d66444d05b2970b8f692e81e1"
+								timeout="30000"
+								codefile="c:\Users\kirushakthy\Documents\Ranorex\RanorexStudio Projects\RxDatabase\RxDatabase\CloseRanorexSite.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

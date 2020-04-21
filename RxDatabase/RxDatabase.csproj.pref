@@ -1,14 +1,13 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="RxDatabase.rxtst" />
-  </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Program.cs" />
     <Element value="RanorexSiteVisit.rxrec" />
     <Element value="RxDatabase.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
+      <fileNames value="" />
       <runOnBuild value="False" />
     </Properties>
   </Properties>
